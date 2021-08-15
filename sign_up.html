@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Sign Up</title>
+    </head>
+    <link rel="stylesheet" href="./css/log.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap" rel="stylesheet">
+    <body>
+                <!--Nav-Bar-->
+                <nav>
+                    <div class="logo_text">
+                        <h4 id="nav_title">Bloggo!</h4>
+                    </div>
+                    <ul class="pages">
+                        <li>
+                            <a href="./index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="./about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="./blogs.html">Blogs</a>
+                        </li>
+                        <li>
+                            <a href="./sign_up.html">Sign In/Sign Up</a>
+                        </li>
+                    </ul>
+                    <!--From here-->
+                    <div class="burger">
+                        <div class="line1"></div>
+                        <div class="line2"></div>
+                        <div class="line3"></div>
+                    </div>
+                    <!--Till here is not my code , check main.js for more info on it-->
+                </nav>
+                
+        <div class="container">
+            <br><br>
+            <h1>Login/Sign Up</h1>
+            <div class="inputs_and_buttons">
+                <input type="text" class="input_log" id="Username_input" placeholder="Username">
+                <br><br>
+                <input type="email" class="input_log" id="email_input" placeholder="E-Mail">
+                <br><br>
+                <input type="password" class="input_log" id="pass_input" placeholder="Password"><br><br>
+                <br><br>
+                <h4 id="status" class="status_text"></h4>
+                <button onclick="Log_In()" class="log_in_button"  style="font-family: 'Atkinson Hyperlegible', sans-serif;">&#8594; Log In / Sign Up &#8592;</button>
+            </div>
+        </div>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
