@@ -164,7 +164,7 @@ nav{
 .blog_banner{
     position: relative;
     height:500px;
-    background:url(/images/banner.jpg) no-repeat center;
+    background:url(./images/banner.jpg) no-repeat center;
     background-size: cover;
     font-family: 'Atkinson Hyperlegible', sans-serif;
 }
